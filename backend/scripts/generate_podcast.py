@@ -18,6 +18,7 @@ def main():
         sys.exit(1)
 
     pdf_path, output_path, Alex_voice, Avery_voice, quality = sys.argv[1:6]
+    print(sys.argv[1:6])
     quality = quality.lower().strip()
 
     # 1) Extract

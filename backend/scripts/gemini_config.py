@@ -8,6 +8,9 @@ import time
 from google.genai.errors import ClientError
 import fitz  # PyMuPDF
 from google import genai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from voice import (
     tts_edge_single_speaker,
